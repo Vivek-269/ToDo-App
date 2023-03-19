@@ -1,0 +1,116 @@
+.todo{
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: cursive;
+  font-weight: 900;
+  background-color: rgb(92, 123, 236);
+}
+
+.todospace{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 85%;
+  background-color: rgba(20, 73, 220, 0.408);
+}
+
+.tododiv{
+ width: 60%;
+}
+
+.form{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AddTodo{
+  font-size: 2rem;
+  font-family:cursive;
+}
+
+.input{
+  font-size: 1.25rem;
+  padding: 5px;
+  margin: 10px;
+  width: 60%;
+  font-family:cursive;
+}
+
+.button{
+  font-size: 2rem;
+  font-family: math;
+  padding: 0px;
+  margin: 5px;
+  width: 42px;
+  height: 42px;
+}
+
+.todolist{
+  padding: 20px;
+}
+
+.todoObject{
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 5px;
+}
+
+.todoElem{
+  width: 100%;
+  padding: 0px 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.strike{
+  background-color: rgba(24, 215, 69, 0.783) ;
+  font-size: 1.3rem;
+  font-family: fangsong;
+  text-decoration: line-through;
+  border: revert;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.521);
+  cursor: pointer;
+  border-width: thin;
+  color: rgba(0, 0, 0, 0.521);
+}
+
+.fa-trash-can{
+  padding-left: 15px;
+  cursor: pointer;
+  color: rgb(216, 66, 66);
+}
+
+.calendarspace{
+  width: 40%;
+  height: 100%;
+  border-left-style: groove;
+}
+
+.calendarheader{
+  text-align: center;
+  font-size: 2.3rem;
+  font-family:cursive;
+  padding: 20px;
+}
+
+.calendardiv{
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.strike-through{
+  text-decoration: line-through; 
+}
